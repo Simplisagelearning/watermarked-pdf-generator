@@ -1,4 +1,0 @@
-Flask
-PyPDF2
-reportlab
-gunicorn
