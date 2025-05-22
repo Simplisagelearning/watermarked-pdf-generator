@@ -44,6 +44,3 @@ def generate_watermarked_pdf():
     add_watermark(input_pdf_path, output_pdf_path, watermark_text)
 
     return send_file(output_pdf_path, as_attachment=True)
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=10000)
